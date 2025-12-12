@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nosotros</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/guantes de box.png" type="image/x-icon">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-danger" href="index.html"><i class="fa-solid fa-bolt text-danger"></i>EL RELÁMPAGO</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="nav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="nosotros.html">Nosotros</a></li>
+          <li class="nav-item"><a class="nav-link" href="tienda.html">Tienda</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Más</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5 pt-4">
+
+    <h2 class="fw-bold text-danger text-center mb-4">Nuestra Organización</h2>
+
+    <div class="row">
+
+
+    <div class="col-md-3">
+
+      <div class="list-group shadow">
+        <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#historia">Historia</a>
+        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#vision">Visión</a>
+        <a class="list-group-item list-group-item-action" data-bs-toggle="list" href="#filosofia">Filosofía</a>
+      </div>
+
+
+      <button class="btn btn-outline-primary w-100 mt-3" data-bs-toggle="collapse" data-bs-target="#infoExtra">
+        Leer más info (Collapse)
+      </button>
+
+      <div class="collapse mt-2" id="infoExtra">
+        <div class="card card-body">
+          Este es un componente "Collapse" independiente. Se usa para ocultar detalles secundarios.
+        </div>
+      </div>
+
+    </div>
+
+      <div class="col-md-9">
+
+        <div class="tab-content shadow p-4 rounded" style="max-height: 280px; overflow-y:auto;">
+
+          <div class="tab-pane fade show active" id="historia">
+            <h4>Historia</h4>
+            <p>
+              Nuestra academia fue fundada con la visión de formar boxeadores disciplinados y apasionados.
+              Combinamos tradición, entrenamiento moderno y valores deportivos.
+            </p>
+            <p>
+              Con más de 10 años de trayectoria, El Relámpago ha creado campeones locales y ha inspirado a cientos de jóvenes.
+            </p>
+          </div>
+
+          <div class="tab-pane fade" id="vision">
+            <h4>Visión</h4>
+            <p>
+              Convertirnos en una de las academias de boxeo más destacadas del país,
+              promoviendo disciplina, esfuerzo y crecimiento personal.
+            </p>
+          </div>
+
+          <div class="tab-pane fade" id="filosofia">
+            <h4>Filosofía</h4>
+            <p>
+              Creemos en la constancia, la humildad y el trabajo duro.
+              Para nosotros, cada alumno tiene el potencial de convertirse en su mejor versión.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    
+    <hr>
+
+    <h3 class="mt-5 mb-3 fw-bold">Preguntas Frecuentes (Acordeón)</h3>
+
+    <div class="accordion" id="faq">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#p1">
+            ¿Qué es Bootstrap?
+          </button>
+        </h2>
+        <div id="p1" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <strong>Bootstrap</strong> es un framework CSS para desarrollar sitios responsivos y atractivos.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#p2">
+            ¿Qué es el Grid System?
+          </button>
+        </h2>
+        <div id="p2" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            Es un sistema de columnas que ayuda a organizar contenido de forma responsiva.
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer class="site-footer bg-dark text-light p-3 mt-5">
+      <div class="container">
+          <div class="d-flex justify-content-between align-items-center flex-wrap">
+              
+              <div class="small text-nowrap me-3">Curso de Diseño y Desarrollo Web</div>
+              
+            <div class="small text-center flex-grow-1 align-self-end">Evaluación Integral Isil © 2025-II</div>
+              
+              <div class="d-flex align-items-center ms-3">
+                  <img src="img/instagram.png" alt="Icono de Instagram" style="height: 20px; margin-right: 5px;">
+                  <img src="img/youtube.png" class="youtube" alt="Icono de YouTube" style="height: 20px; margin-right: 5px;">
+                <img src="img/tik-tok.png" alt="Icono de TikTok" style="height: 20px;">
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
